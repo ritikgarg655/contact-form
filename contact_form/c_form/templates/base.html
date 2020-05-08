@@ -41,20 +41,62 @@
 			margin-right: 10px;  
 			/*margin-top: -20px;  */
 		}
+
+		#form{
+			max-width: 400px; 
+			border-radius: 20px;
+			margin: auto; 	
+			margin-top: 50px;
+			border: 2px solid blue;
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+		}
+		#home{
+			text-align: center; padding-top: 10%;
+		}
+
+		#view_para{
+
+		}
+		.view_table{
+			border-collapse: collapse;
+			border: 1.5px solid  #d5d8dc;	
+			margin-left: auto; 
+			margin-right: auto;
+			width: 90%;
+		}
+		.view_th{
+			text-align: center;
+			border: 1.5px solid  #d5d8dc;	
+		}
+		.view_td{
+			text-align: center;
+			border: 1.5px solid   #d5d8dc ;
+		}
+		.id_table{
+			border: 2px solid blue;
+			border-radius: 20px;
+			padding-top: 20px;
+			padding-left: 20px;
+			padding-right: 20px;
+			padding-bottom: 20px;
+			margin-left: auto; 
+			margin-right: auto;
+			/*border: 0px;*/
+		}
 	</style>
-    <title>Contact Form</title>
+	<title>Contact Form</title>
 </head>
 <body>
-    
-
-    <nav>
-
-        <a id="logo" href="">91Social</a>
-        <a href="../home">Home</a>
-        <a href="../create_form">Create form</a>
-        <a href="../view">Dashboard</a>
-    </nav>
-    {% block content %}
+	<nav>
+		<a id="logo" href="">91Social</a>
+		<a href="../home">Home</a>
+		<a href="../create_form">Create form</a>
+		<a href="../view">Dashboard</a>
+	</nav>
+	{% block content %}
 	 replace me
 	{% endblock %}
 

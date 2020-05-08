@@ -1,12 +1,30 @@
 {% extends 'base.html' %}
 {% block content %}
 	<p>
-		Id: {{ details.id }}<br>
-		Name : {{ details.title }} {{ details.name }}<br>
-		email : {{ details.email }}<br>
-		password: {{ detaisl.password }}<br>
-		phone number: {{ details.phone_num }}<br>
-		Address: {{ details.add }}<br>	
-		Date of creation: {{ details.creation_date }}<br>
+		<div style="text-align: center;" ><b>Details</b></div>
+		<hr style="color:  #ecf0f1 ; width: 90%; text-align: center;" ><br>
+		<table class = "id_table">
+			<tr>
+				<td style="height: 40px; text-align: right;"><b>Id :  </b></td><td style="height: 40px;text-align: left;">{{ details.id }}</td>
+			</tr>
+			<tr>
+				<td style="height: 40px;text-align: right;"><b>Name :  </b></td><td style="height: 40px;text-align: left;">{{ details.title }} {{ details.name }}</td>
+			</tr>
+			<tr>
+				<td style="height: 40px;text-align: right;"><b>email :  </b></td><td style="height: 40px;text-align: left;">{{ details.email }}</td>
+			</tr>
+			<tr>
+				<td style="height: 40px;text-align: right;"><b>password :  </b></td><td style="height: 40px;text-align: left;">{{ detaisl.password }}</td>
+			</tr>
+			<tr>
+				<td style="height: 40px;text-align: right;"><b>phone number :  </b></td><td style="height: 40px;text-align: left;">{{ details.phone_num }}</td>
+			</tr>
+			<tr>
+				<td style="height: 40px;text-align: right;"><b>Address :  </b></td><td style="height: 40px;text-align: left;">{{ details.add }}</td>
+			</tr>
+			<tr>
+				<td style="height: 40px;text-align: right;"><b>Date of creation :  </b></td><td style="height: 40px;text-align: left;">{{ details.creation_date }}</td>
+			</tr>
+		</table>
 	</p>
 {% endblock %}

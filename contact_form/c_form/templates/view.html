@@ -1,19 +1,34 @@
 {% extends 'base.html' %}
 {% block content %}
-	<p>
-		Deatils of all submitted form:
-		<table>
+	<p  > 
+		<div style="text-align: center;" ><b>DashBoard</b></div>
+		<hr style="color:  #ecf0f1 ; width: 90%; text-align: center;" ><br>
+		<table class="view_table" >
 			<tr>
-				<th>ID</th>
-				<th>Name</th>
-				<th>Link</th>
+				<th class ="view_th">ID</th>
+				<th class ="view_th">User name</th>
+				<th class ="view_th">Email</th>
+				<th class ="view_th">Phone number</th>
+				<th class ="view_th">See details</th>
 			</tr>
 			{% for i in details %}
-			<tr>
-				<th>{{ i.id }}</th>
-				<th>{{ i.name }}</th>
-				<th><a href="./{{i.id}}" >open</a></th>
-			</tr>	
+				{% if forloop.counter|divisibleby:2 %}
+					<tr style="background-color: white;">
+						<td class="view_td">{{ i.id }}</td>
+						<td class="view_td">{{ i.name }}</td>
+						<td class="view_td">{{ i.email }}</td>
+						<td class="view_td">{{i.phone_num}}</td>
+						<td class="view_td"><a href="./{{i.id}}" >Details</a></td>
+					</tr>
+				{% else %}
+					<tr style="background-color:   #f8f9f9  ; ">
+						<td class="view_td">{{ i.id }}</td>
+						<td class="view_td">{{ i.name }}</td>
+						<td class="view_td">{{ i.email }}</td>
+						<td class="view_td">{{i.phone_num}}</td>
+						<td class="view_td"><a href="./{{i.id}}" >Details</a></td>
+					</tr>
+				{% endif %}
 			{% endfor %}
 		</table>
 	</p>
