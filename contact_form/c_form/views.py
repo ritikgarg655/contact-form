@@ -48,3 +48,6 @@ def view_id(request,my_id):
 	}
 
 	return render(request,"view_id.html",context)
+
+def home(request):
+	return render(request,"home.html",{})
