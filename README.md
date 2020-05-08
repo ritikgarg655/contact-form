@@ -10,6 +10,7 @@ $ pip install django
 
 # INstall dependecy
 $ pip install django-phonenumber-field
+$ pip install phonenumbers
 
 # to check django version
 $ django-admin --version
