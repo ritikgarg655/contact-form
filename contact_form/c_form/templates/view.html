@@ -9,9 +9,11 @@
 				<th>Link</th>
 			</tr>
 			{% for i in details %}
-				<th>i.id</th>
-				<th>i.name</th>
+			<tr>
+				<th>{{ i.id }}</th>
+				<th>{{ i.name }}</th>
 				<th><a href="./{{i.id}}" >open</a></th>
+			</tr>	
 			{% endfor %}
 		</table>
 	</p>

@@ -11,10 +11,9 @@ def create_form(request):
 		form = form_input(request.POST)
 		if form.is_valid():
 			contact_form.objects.create(**form.cleaned_data)
-			all_id = contact_form.objects.all()
-			last_id = 0
-			for i in all_id:
-				last_id = i.id
+			all_form = contact_form.objects.all()
+			last_form = all_id[-1]
+			last_id = last_form.id
 			return redirect('contact_form/view/'+last_id)
 		else:
 			print("invalid input")
