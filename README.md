@@ -28,7 +28,9 @@
 ## How to build:
 ```base
 # Create virtual envorment
+# * () means replace it with your name.
 $ virtualenv (dir-name)
+$ cd (dir-name)
 
 # install django
 $ pip install django
@@ -41,7 +43,9 @@ $ pip install phonenumbers
 $ git clone https://github.com/ritikgarg655/contact-form.git
 
 # Create user
-$ python3 manage.py createsuperuser (user_name)
+$ cd contact-form
+$ cd contact_form
+$ python3 manage.py createsuperuser
 
 #  Making migrations
 $ python3 manage.py makemigrations
