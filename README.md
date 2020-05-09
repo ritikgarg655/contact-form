@@ -34,6 +34,6 @@ $ python3 manage.py runserver
 ## Create form page:
   ![Create form Page](/images/create_form.png)
 ## DashBoard:
-  ![DashBoard Page](/images/create_form.png)
+  ![DashBoard Page](/images/dashboard.png)
 ## Details of each user:
   ![Details Page](/images/details.png)
