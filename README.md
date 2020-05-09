@@ -30,10 +30,10 @@ $ python3 manage.py runserver
 
 # Output:
 ## Home page: 
-  ![Home Page](https://github.com/ritikgarg655/contact-form/tree/master/images/home_page.png)
+  ![Home Page](/images/home_page.png)
 ## Create form page:
-  ![Create form Page](https://github.com/ritikgarg655/contact-form/tree/master/images/create_form.png)
+  ![Create form Page](/images/create_form.png)
 ## DashBoard:
-  ![DashBoard Page](https://github.com/ritikgarg655/contact-form/tree/master/images/create_form.png)
+  ![DashBoard Page](/images/create_form.png)
 ## Details of each user:
-  ![Details Page](https://github.com/ritikgarg655/contact-form/tree/master/images/details.png)
+  ![Details Page](/images/details.png)
