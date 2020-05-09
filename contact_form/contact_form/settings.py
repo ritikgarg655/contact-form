@@ -102,6 +102,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# HASHES FOR PASSWORD
+PASSWORD_HASHERS =(
+    'django.contrib.auth.hashers.MD5PasswordHasher',
+)
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
