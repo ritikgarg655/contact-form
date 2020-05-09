@@ -11,6 +11,7 @@ $ pip install django
 # INstall dependecy
 $ pip install django-phonenumber-field
 $ pip install phonenumbers
+$ pip install pycrypto
 
 # to check django version
 $ django-admin --version
