@@ -12,14 +12,14 @@ This is task given by 91social
 
 ## Task done:
   1. Created a webpage with a contact form consisting of:
-    -Title select Field (Mr/Mrs/Ms)
-    -Name Field
-    -Email Field
-    -Password Field (Password should be masked)
-    -Phone Field
-    -Address fields
-    -Submit button
-    -Date field is automatically saved
+     - Title select Field (Mr/Mrs/Ms)
+     - Name Field
+     - Email Field
+     - Password Field (Password should be masked)
+     - Phone Field
+     - Address fields
+     - Submit button
+     - Date field is automatically saved
   2. Input validation, if invalid unable to submit.
   3. After submiting data redirect to view submitted details.
   4. View page to see all submitted data.
